@@ -1,4 +1,13 @@
+# target 1
 language: java
+script: mvn clean install
+jdk:
+  - oraclejdk8
+  - oraclejdk7
+
+# target 1
+language: java
+script: mvn clean install -Predhat-prod
 jdk:
   - oraclejdk8
   - oraclejdk7
